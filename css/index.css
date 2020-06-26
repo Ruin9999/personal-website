@@ -1,0 +1,33 @@
+body {
+    
+}
+
+.main-wrapper {
+    overflow: visible;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.container {
+    margin: auto;
+}
+
+.title {
+    margin: auto;
+    font-weight: bold;
+    text-align: center;
+}
+
+.content-left {
+    float: left;
+}
+
+.content-right {
+    float: right;
+}
+
+.content-center {
+    float: center;  
+}
