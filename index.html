@@ -19,32 +19,40 @@
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="icons/sj/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
-        
+
         <link href="css/reset.css" rel="stylesheet" type="text/css">
         <link href="css/index.css" rel="stylesheet" type="text/css">
-        <link href="css/navbar.css" rel="stylesheet" type="text/css">
         <link href="css/fontawesome.css" rel="stylesheet" type="text/css">
-        
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,200&display=swap" rel="stylesheet">
+
         <script src="https://kit.fontawesome.com/3f22078502.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+        <!-- Add scripts from here onwards -->
+        <script src="scripts/index.js"></script>
 
     </head>
-    
     <body>
         <div class="main-wrapper">
-            <div class="container">
-                <div class="title">Yong Shun Jie</div>
+          <div class="navbar" id="navbar">
+            <div id="navbar-collapse">
+              <h1 class="title text">Yong Shun Jie<h1>
+              <ul>
+                <li><a href="#home" class="text">Home</a></li>
+                <li><a href="#about" class="text">About</a></li>
+                <li><a href="#portfolio" class="text">Potfolio</a></li>
+                <li><a href="#contact" class="text">Contact</a></li>
+              </ul>
             </div>
-            <div class="container">
-                <div class="content-left">
-                    DESCIRPTION
-                </div>
-                <div class="content-right">
-                    EXTRA STUFF
-                </div>
-            </div>
-            <div class="container">
-                TEST
-            </div>
+              <div class="navbar-toggle" id="navbar-toggle">
+                <button class="navbar-button" id="navbar-button" onClick="toggleNav()"><i class="fa fa-bars"></i></button>
+              </div>
+          </div>
+          <div class="body-wrapper" id="body-wrapper">
+
+          </div>
         </div>
     </body>
 </html>
